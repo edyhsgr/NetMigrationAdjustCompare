@@ -13,5 +13,7 @@ Related info:
 
 -Alaska migration by age over time comparisons: http://shiny.demog.berkeley.edu/eddieh/AKPFDMigrationReview/ Hunsinger (2018) (using the Alaska PFD-Based Migration Data - many thanks to terrific colleagues)
 
+-Related Shiny for R application: http://shiny.demog.berkeley.edu/eddieh/NMAdjustCompare/ Hunsinger (2018)
+
 -----
 
