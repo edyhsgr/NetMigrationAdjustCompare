@@ -9,8 +9,6 @@ Related info:
 
 -Plus-minus method from: https://books.google.com/books?id=-uPrAAAAMAAJ, Shyrock and Siegel (1973)
 
--Slides with background thoughts on adjusting net migration: https://edyhsgr.github.io/eddieh/documents/ProjPresentation.pdf, Hunsinger (2007)
-
 -Alaska migration by age over time comparisons: http://shiny.demog.berkeley.edu/eddieh/AKPFDMigrationReview/ Hunsinger (2018) (using the Alaska PFD-Based Migration Data - many thanks to terrific colleagues Eric Sandberg and David Howell)
 
 -Related Shiny for R application: http://shiny.demog.berkeley.edu/eddieh/NMAdjustCompare/ Hunsinger (2018)
