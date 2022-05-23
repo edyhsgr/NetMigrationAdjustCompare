@@ -61,20 +61,20 @@ lines(NetAdjustByIns,col=3,lwd=3)
 lines(NetAdjustByOuts,col=4,lwd=3)
 lines(NetAdjustByGross,col=5,lwd=3)
 lines(NetAdjustByBorrowed,col=6,lwd=3)
-lines(NetAdjustPlusMinus,col=7,lwd=3)
+lines(NetAdjustPlusMinus,col="orange",lwd=3)
 lines(NetAdjustUniform,col=8,lwd=3)
 axis(side=1,at=1:18,las=2,labels=agegroups,cex.axis=0.9)
 axis(side=2,cex.axis=0.9)
 legend(10,sum(abs(NetGoal))/3, 
 legend=c("Starting Profile", "Profile to Match", "Starting In-Migration", "Starting Out-Migration", "Starting Gross Migration", "Borrowed Gross Migration", "Plus-Minus Method", "Uniform"), 
-col=c(1,2,3,4,5,6,7,8), 
+col=c(1,2,3,4,5,6,"orange",8), 
 lwd=c(5,5,3,3,3,3,3,3),cex=.9)
 title("Different Level Adjustment Weightings for Net Migration by Age")
 mtext(paste(c("(Juneau's 2012 total population: ",PopAgeSexBCA$JuneauTotal[1],")"),collapse=""),line=0,adj=.5)
 Sys.sleep(3)
 
 adjustmentmethodlabel<-c("Starting In-Migration", "Starting Out-Migration", "Starting Gross Migration", "Borrowed Gross Migration", "Plus-Minus Method", "Uniform")
-barplot(c(ErrorNetAdjustByIns,ErrorNetAdjustByOuts,ErrorNetAdjustByGross,ErrorNetAdjustByBorrowed,ErrorNetAdjustPlusMinus,ErrorNetAdjustUniform),names.arg=adjustmentmethodlabel,col=c(3,4,5,6,7,8),las=2)
+barplot(c(ErrorNetAdjustByIns,ErrorNetAdjustByOuts,ErrorNetAdjustByGross,ErrorNetAdjustByBorrowed,ErrorNetAdjustPlusMinus,ErrorNetAdjustUniform),names.arg=adjustmentmethodlabel,col=c(3,4,5,6,"orange",8),las=2)
 title("Sum of Absolute Errors by Weighting Type")
 Sys.sleep(3)
 
@@ -118,20 +118,20 @@ lines(NetAdjustByIns,col=3,lwd=3)
 lines(NetAdjustByOuts,col=4,lwd=3)
 lines(NetAdjustByGross,col=5,lwd=3)
 lines(NetAdjustByBorrowed,col=6,lwd=3)
-lines(NetAdjustPlusMinus,col=7,lwd=3)
+lines(NetAdjustPlusMinus,col="orange",lwd=3)
 lines(NetAdjustUniform,col=8,lwd=3)
 axis(side=1,at=1:18,las=2,labels=agegroups,cex.axis=0.9)
 axis(side=2,cex.axis=0.9)
 legend(10,sum(abs(NetGoal))/3, 
 legend=c("Starting Profile", "Profile to Match", "Starting In-Migration", "Starting Out-Migration", "Starting Gross Migration", "Borrowed Gross Migration", "Plus-Minus Method", "Uniform"), 
-col=c(1,2,3,4,5,6,7,8), 
+col=c(1,2,3,4,5,6,"orange",8), 
 lwd=c(5,5,3,3,3,3,3,3),cex=.9)
 title("Different Level Adjustment Weightings for Net Migration by Age")
 mtext(paste(c("(Juneau's 2012 total population: ",PopAgeSexBCA$JuneauTotal[1],")"),collapse=""),line=0,adj=.5)
 Sys.sleep(3)
 
 adjustmentmethodlabel<-c("Starting In-Migration", "Starting Out-Migration", "Starting Gross Migration", "Borrowed Gross Migration", "Plus-Minus Method", "Uniform")
-barplot(c(ErrorNetAdjustByIns,ErrorNetAdjustByOuts,ErrorNetAdjustByGross,ErrorNetAdjustByBorrowed,ErrorNetAdjustPlusMinus,ErrorNetAdjustUniform),names.arg=adjustmentmethodlabel,col=c(3,4,5,6,7,8),las=2)
+barplot(c(ErrorNetAdjustByIns,ErrorNetAdjustByOuts,ErrorNetAdjustByGross,ErrorNetAdjustByBorrowed,ErrorNetAdjustPlusMinus,ErrorNetAdjustUniform),names.arg=adjustmentmethodlabel,col=c(3,4,5,6,"orange",8),las=2)
 title("Sum of Absolute Errors by Weighting Type")
 Sys.sleep(3)
 
