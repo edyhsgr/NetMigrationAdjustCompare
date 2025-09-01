@@ -3,8 +3,8 @@
 ##R CODE FOR NET MIGRATION PROFILE ADJUSTMENT COMPARISONS
 ##
 ##EDDIE HUNSINGER (AFFILIATION: ALASKA DEPARTMENT OF LABOR AND WORKFORCE DEVELOPMENT), SEPTEMBER 2019
-##http://www.demog.berkeley.edu/~eddieh/
-##edyhsgr@gmail.com
+##https://edyhsgr.github.io/
+##edyhsgr@protonmail.com
 ##############################################################################################################################
 ##############################################################################################################################
 
@@ -152,7 +152,7 @@ tags$a(href="https://books.google.com/books?id=-uPrAAAAMAAJ",
 	"Shyrock and Siegel (1973)."),
 
 "Alaska migration by age over time comparisons: ",
-tags$a(href="http://shiny.demog.berkeley.edu/eddieh/AKPFDMigrationReview/", 
+tags$a(href="https://applieddemogtoolbox.shinyapps.io/AKMigrationProfiles/", 
 	"Hunsinger (2018) (using the Alaska PFD-Based Migration Data - many thanks to terrific colleagues Eric Sandberg and David Howell).")),
 
 width=3
